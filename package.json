@@ -1,0 +1,26 @@
+{
+  "name": "tutenlabs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-uat": "NODE_ENV=uat npx playwright test",
+    "test-qa": "NODE_ENV=qa npx playwright test",
+    "test-uat-visual": "NODE_ENV=uat npx playwright test --headed",
+    "test-qa-visual": "NODE_ENV=qa npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://tutenlabs@dev.azure.com/tutenlabs/AIR/_git/saas-playwright-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}
